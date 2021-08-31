@@ -1,0 +1,51 @@
+---
+title: "This is a title - Avni S Bhalla"
+subtitle: "This is a subtitle"
+author: "asb328"
+date: "8/30/2021"
+output: word_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE} 
+#echo=FALSE sets only the code chunk output to show
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+<!-- \newpage used to create a page break -->
+\newpage
+<!-- remember to leave a blank line after! -->
+
+# New header
+```{r}
+name <- "asbhalla"
+noun <- "patchoulli"
+color <- "sparkly purple"
+```
+<!-- to refer to objects in the code chunk in the text portion -->
+Oh `r name`!
+
+
+<!--use a backslash with two spaces for hard line break -->
+The `r noun` is `r color`
+
+
